@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+    <title>Decodificador alura</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+
+<body>
+        <main class="main__container">
+        <header class="cabecalho">
+            <img src="/assets/hacker.png" alt="logo alura">
+            <h1>Mensagens Codificadas</h1>
+        </header>
+
+        <section class="container__input">
+        <div class="input">
+            <textarea  id="input__texto" placeholder="Digite o seu texto aqui "></textarea>
+            <p>DIGITE APENAS LETRAS MINUSCULAS E SEM SIMBOLOS</p>
+        </div>
+
+        <div id="output">
+            <img src="/assets/hacker.png" alt="">
+            <h2>Nenhuma mensagem encontrada</h2>
+            <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+        </div>
+     </section>
+
+     <section class="buttons">
+        <div class="container__buttons">
+            <button onclick="criptografar()" class="btn__criptografar">Criptografar</button>
+            <button onclick="descriptografar()" class="btn__descriptografar">Descriptografar</button>
+        </div>
+     </section>
+    </main>
+
+
+
+    <script src="principal/script.js"></script>
+</body>
+</html>

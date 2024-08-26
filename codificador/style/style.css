@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+:root{
+    --cor--primaria:#F3F5FC;
+    --cor--secundaria:#0A3871;
+    --cor--terciaria:#D8DFE8;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", "sans-serif";
+}
+
+body{
+    background-image: url(https://img.freepik.com/vetores-gratis/numeros-de-queda-digitais-do-codigo-binario-do-estilo-da-matriz-fundo-azul_1017-37387.jpg?w=1060&t=st=1724690579~exp=1724691179~hmac=e7f2a77b81e755550bf661e1ccfda7cd736f993f9c91a792e225b1cf42c75648) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    color: #ffffff;
+}
+
+.cabecalho img{
+    max-width: 70px;
+    max-height: 70px;
+    width: auto;
+    height: auto;
+}
+
+.container__input{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+}
+
+.container__input .input{
+    background-color:transparent;
+    width: 400;
+    height: 330;
+}
+
+
+#input__texto{
+    width: 345px;
+    height: 330px;
+    font-size: 20px;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: lowercase;
+    color: #D8DFE8;
+    
+
+}
+
+#input__texto::placeholder{
+    color: #FFFFFF;
+}
+
+
+
+
+.input p{
+    color: var(--cor--primaria);
+    font-size: 14px;
+}
+
+#output{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--cor--primaria);
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+    margin-right: 3%;
+    gap: 32px;
+    background: transparent;
+   
+}
+
+#output h2{
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+#output p{
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#output img{
+max-width: 200px;
+max-height: 200px;
+width: auto;
+height: auto;
+margin-top: 4%;
+
+}
+
+.btn__criptografar{
+    border: 2px solid var(--cor--secundaria);
+    border-radius: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #0A3871;
+    width: 228px;
+    height: 67px;
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+.btn__descriptografar{
+    border: 2px solid var(--cor--secundaria);
+    border-radius: 24px;
+    text-decoration: none;
+    color: var(--cor--secundaria);
+    background-color: #D8DFE8;
+    width: 228px;
+    height: 67px;
+    cursor: pointer;
+    margin-left: 24px;
+}
+
+.bnt__copiar{
+    border: 2px solid var(--cor--secundaria);
+    border-radius: 24px;
+    text-decoration: none;
+    color: var(--cor--secundaria);
+    background-color: #D8DFE8;
+    width: 228px;
+    height: 67px;
+    cursor: pointer;
+    margin-bottom: 10%;
+    margin-top: 30%;
+    align-items: center;
+
+}
+
+.btn__criptografar:hover{
+    border: 2px solid var(--cor--primaria);
+    transition: 0.5s;
+}
+
+.btn__descriptografar:hover{
+    border: 2px solid var(--cor--primaria) ;
+    transition: 0.5s;
+}
+
+
+
